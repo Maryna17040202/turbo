@@ -1,0 +1,200 @@
+.main-catalog {
+    display: flex;
+    justify-content: center;
+    border-radius: 60px 60px 0px 0px;
+    background: white;
+    margin-top: -80px;
+    margin-bottom: 200px;
+}
+
+.main-products {
+    width: 1569px;
+    height: 888px;
+}
+.main-catalog-products {
+    display: flex;
+    margin-left: 165px;
+    color: #355CA9;
+    justify-content: flex-start;
+    padding-top: 30px;
+}
+
+.main-catalog-products h2 {
+    font-family: "Russo One", sans-serif;
+    font-size: 32px;
+    text-transform: uppercase;
+}
+
+.main-catalog-product {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.conditioner, .duct-rectangular, .duct-round, .additional-elements {
+    width: 585px;
+    height: 314px;
+    background: #EEF1F8;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    align-items: center;
+    border-radius: 16px;
+    font-family: "Gilroy", sans-serif;
+    font-size: 20px;
+    margin-top: 30px;
+    margin-right: 38px;
+    padding-bottom: 15px;
+    position: relative;
+    transition: 1s;
+}
+
+.conditioner:hover, .main-btn-img img:hover, .main-btn-img:hover, .duct-rectangular:hover, .duct-round:hover, .additional-elements:hover {
+    background: white;
+}
+
+.conditioner img, .duct-rectangular img, .duct-round img, .additional-elements img{
+    width: 381px;
+    height: 214px;
+    margin-top: 25px;
+}
+
+
+.main-btn-img {
+    border: none;
+    margin-top: 35px;
+}
+
+.main-btn-img img {
+    width: 50px;
+    height: 50px;
+    border: none;
+    margin-top: -37px;
+}
+
+.main-btn-catalog {
+    width: 242px;
+    height: 56px;
+    border-radius: 50px;
+    color: #355CA9;
+    border: #355CA9 solid 1px;
+    background-color: white;
+    margin-top: 35px;
+    font-weight: 600;
+    font-size: 16px;
+    margin-left: -137px;
+    
+}
+
+.main-btn-catalog:hover {
+    background-color: #303136;
+    border-radius: none;
+    color: white;
+    border: #303136 solid 1px;
+}
+
+
+.main-container-btn-catalog {
+    width: 1600px;
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    margin-bottom: 100px;
+}
+
+.main-catalog-subtitle {
+    display: flex;
+}
+
+.duct-rectangular .main-catalog-subtitle, .duct-round .main-catalog-subtitle {
+    margin-top: -20px;
+}
+
+
+@media screen and (max-width: 768px) {
+
+    .main-catalog {
+        width: 768px;
+        
+    }
+
+    .main-products {
+        width: 768px;
+        display: flex;
+        flex-wrap: wrap;
+        margin-bottom: -220px;
+    }
+
+    .main-catalog-products {
+        display: flex;
+        margin-left: 20px;
+        color: #355CA9;
+        justify-content: flex-start;
+        padding-top: 30px;
+    }
+
+    .main-catalog-product {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .main-catalog-products h2 {
+        font-family: "Russo One", sans-serif;
+        font-size: 24px;
+        text-transform: uppercase;
+    }
+
+    .conditioner, .duct-rectangular, .duct-round, .additional-elements {
+        width: 359px;
+        height: 236px;
+        background: #EEF1F8;
+        display: flex;
+        justify-content: space-around;
+        flex-wrap: wrap;
+        align-items: center;
+        border-radius: 16px;
+        font-family: "Gilroy", sans-serif;
+        font-size: 18px;
+        margin-top: 0px;
+        margin-right: 15px;
+        padding-bottom: 15px;
+        position: relative;
+        transition: 1s;
+    }
+
+    .conditioner img, .duct-rectangular img, .duct-round img, .additional-elements img {
+        width: 250px;
+        height: 140px;
+        margin-top: 25px;
+    }
+
+    .main-btn-img img {
+        width: 43px;
+        height: 43px;
+        border: none;
+        margin-top: -37px;
+    }
+
+    .main-container-btn-catalog {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        margin-top: 0px;
+        margin-bottom: 0px;
+    }
+
+    .main-btn-catalog {
+        width: 328px;
+        height: 56px;
+        border-radius: 50px;
+        color: #355CA9;
+        border: #355CA9 solid 1px;
+        background-color: white;
+        margin-top: 0px;
+        font-weight: 600;
+        font-size: 16px;
+        margin-left: 0px;
+    }
+    
+}

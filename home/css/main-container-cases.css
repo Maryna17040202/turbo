@@ -1,0 +1,142 @@
+.main-container-cases {
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+.main-cases-title-img-span {
+    width: 1201px;
+    height: 366px;
+}
+
+.main-cases-title {
+    display: flex;
+    justify-content: left;
+}
+
+.main-cases-title h2 {
+    font-family: "Russo One", sans-serif;
+    font-size: 32px;
+    color: #355CA9;
+    text-transform: uppercase;
+}
+
+.main-cases-img-span {
+    display: flex;
+    justify-content: center;
+}
+
+.main-img-span img {
+    margin-right: 19px;
+}
+
+.main-img-span span {
+    font-family: "Roboto", sans-serif; 
+    font-size: 16px;
+    color: #757575;
+}
+
+.main-cases-btn {
+    display: flex;
+    justify-content: center;
+}
+
+
+.main-cases-btn button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: -318px;
+    margin-top: 35px;
+    width: 167px;
+    height: 56px;
+    background: white;
+    border: #355CA9 1px solid;
+    color: #355CA9;
+    border-radius: 50px;
+    position: relative;
+    transition: 0.7s;
+}
+
+.main-cases-btn a {
+    text-decoration: none;
+    font-family: "Gilroy", sans-serif;
+    font-size: 16px;
+    color: #355CA9;
+}
+
+.main-cases-btn button:hover {
+    background: #303136;
+    border: #303136 solid 1px;
+}
+
+.main-cases-btn button:hover a {
+    color: white;
+}
+
+@media screen and (max-width: 768px) {
+
+    .main-container-cases {
+        display: flex;
+        margin-top: 64px;
+        margin-left: 20px;
+        margin-bottom: 0px;
+        width: 791px;
+    }
+
+    .main-cases-title-img-span {
+        width: 791px;
+        height: 339px;
+    }
+
+    .main-cases-title {
+        display: flex;
+        justify-content: left;
+    }
+
+    .main-cases-title h2 {
+        font-family: "Russo One", sans-serif;
+        font-size: 24px;
+        color: #355CA9;
+        text-transform: uppercase;
+    }
+
+    .main-cases-img-span {
+        display: flex;
+        justify-content: flex-start;
+        width: 791px;
+    }
+
+    .main-img-span img {
+        width: 381px;
+        height: 254px;
+        margin-right: 25px;
+    }
+
+    .main-cases-btn {
+        display: flex;
+        justify-content: center;
+        margin-bottom: 40px;
+        margin-top: 40px;
+    }
+
+    .main-cases-btn button {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-left: 0px;
+        margin-top: 0px;
+        width: 328px;
+        height: 56px;
+        background: white;
+        border: #355CA9 1px solid;
+        color: #355CA9;
+        border-radius: 50px;
+        position: relative;
+        transition: 0.7s;
+    }
+
+    
+}
+

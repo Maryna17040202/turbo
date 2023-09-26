@@ -1,0 +1,314 @@
+.main-container-forma {
+    display: flex;
+    justify-content: center;
+}
+
+.container-forma {
+    width: 1400px;
+    height: 598px;
+    background: #EEF1F8;
+    border-radius: 30px;
+}
+
+.main-forma-title {
+    margin-left: 100px;
+    margin-top: 40px;
+}
+
+.main-forma-title h2 {
+    font-family: "Russo One", sans-serif;
+    font-size: 32px;
+    color: #303136;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+
+.main-form {
+    display: flex;
+    margin-left: 100px;
+}
+
+.form-subtitle-h3-input-button {
+    width: 790px;
+    height: 400px;
+    background: white;
+    margin-left: -376px;
+    border-radius: 0px 30px 30px 0px;
+}
+
+.form-subtitle-h3 {
+    margin-left: 30px;
+}
+
+.form-subtitle-h3 h3 {
+    font-family: "Gilroy", sans-serif;
+    font-size: 24px;
+    color: #355CA9;
+}
+
+.form-name-tel {
+    display: flex;
+}
+
+.form-name {
+    width: 343px;
+    height: 78px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 30px;
+}
+
+.form-name span {
+    font-family: "Gilroy", sans-serif;
+    font-size: 18px;
+}
+
+.input {
+    width: 343px;
+    height: 56px;
+    border-radius: 30px;
+    border: #9A9EA6 solid 1px;
+    font-family: "Gilroy", sans-serif;
+    font-size: 14px;
+    text-indent: 18px;
+}
+
+.invalid {
+    border: red solid 1px;
+} 
+
+.valid {
+    border: green solid 1px;
+} 
+
+.form-tel span {
+    font-family: "Gilroy", sans-serif;
+    font-size: 18px;
+}
+
+.form-tel {
+    width: 343px;
+    height: 78px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 30px;
+
+}
+
+.form-tel input {
+    width: 343px;
+    height: 56px;
+    border-radius: 30px;
+    border: #9A9EA6 solid 1px;
+    font-family: "Gilroy", sans-serif;
+    font-size: 14px;
+    text-indent: 18px;
+}
+
+.form-email {
+    width: 716px;
+    height: 78px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 30px;
+    margin-top: 25px;
+}
+
+.form-email span {
+    font-family: "Gilroy", sans-serif;
+    font-size: 18px;
+}
+
+.form-email input {
+    width: 716px;
+    height: 56px;
+    border-radius: 30px;
+    border: #9A9EA6 solid 1px;
+    font-family: "Gilroy", sans-serif;
+    font-size: 14px;
+    text-indent: 18px;
+}
+
+.button-submit {
+    width: 716px;
+    height: 70px;
+    border-radius: 35px;
+    margin-left: 30px;
+    margin-top: 40px;
+}
+
+.button-submit input {
+    width: 716px;
+    height: 70px;
+    background: #303136;
+    color: white;
+    border: #303136 solid 1px;
+    border-radius: 35px;
+    font-family: "Gilroy", sans-serif;
+    font-size: 20px;
+}
+
+@font-face {
+    font-family: "Gilroy"; 
+    src: url("/font/Gilroy-Semibold.ttf" ) format("truetype");
+    font-style: normal; 
+    font-weight: normal; 
+} 
+
+@font-face {
+    font-family: "Russo One"; 
+    src: url("/font/Russo_One.ttf" ) format("truetype");
+    font-style: normal; 
+    font-weight: normal; 
+} 
+
+@font-face {
+    font-family: "Roboto"; 
+    src: url("/font/Roboto-Thin.ttf" ) format("truetype");
+    font-style: normal; 
+    font-weight: normal; 
+} 
+
+@media screen and (max-width: 1280px) {
+    .container-forma {
+        width: 1280px;
+        height: 598px;
+        background: #EEF1F8;
+        border-radius: 30px;
+        padding-left: 50px;
+        padding-right: 50px;
+    }
+
+    .main-forma-title {
+        margin-top: 40px;
+        margin-left: 0px;
+    }
+
+    .main-form {
+        display: flex;
+        margin-left: 0px;
+    }
+
+    .main-form {
+        display: flex;
+    }
+}
+
+
+@media screen and (max-width: 768px) {
+    .example {
+        display: none;
+    }
+
+    .main-container-forma {
+        display: flex;
+        justify-content: center;
+        width: 768px;
+        height: 599px;
+    }
+
+    .container-forma {
+        width: 768px;
+        height: 599px;
+        background: #EEF1F8;
+        border-radius: 30px;
+        padding-left: 25px;
+        padding-right: 25px;
+    }
+
+    .main-forma-title {
+        margin-top: 40px;
+        margin-left: 0px;
+        margin-bottom: 20px;
+        width: 491px;
+        height: 29px;
+    }
+
+    .main-forma-title h2 {
+        font-family: "Russo One", sans-serif;
+        font-size: 24px;
+        color: #303136;
+        text-transform: uppercase;
+        font-weight: 600;
+    }
+
+    .main-form {
+        display: flex;
+        width: 728px;
+    }
+
+    .form-subtitle-h3-input-button {
+        width: 728px;
+        height: 400px;
+        background: white;
+        margin-left: 0px;
+        border-radius: 0px 30px 30px 0px;
+    }
+
+    .form-subtitle-h3 {
+        margin-left: 6px;
+        width: 631px;
+        height: 24px;
+        margin-bottom: 20px;
+    }
+
+    .form-name {
+        width: 343px;
+        height: 78px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        margin-left: 10px;
+    }
+
+    .form-tel {
+        width: 343px;
+        height: 78px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        margin-left: 20px;
+    }
+
+    .form-email {
+        width: 708px;
+        height: 78px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        margin-left: 10px;
+        margin-top: 25px;
+    }
+
+    .form-email input {
+        width: 708px;
+        height: 56px;
+        border-radius: 30px;
+        border: #9A9EA6 solid 1px;
+        font-family: "Gilroy", sans-serif;
+        font-size: 14px;
+        text-indent: 18px;
+    }
+
+    .button-submit {
+        width: 708px;
+        height: 70px;
+        border-radius: 35px;
+        margin-left: 10px;
+        margin-top: 40px;
+    }
+
+    .button-submit input {
+        width: 708px;
+        height: 70px;
+        background: #303136;
+        color: white;
+        border: #303136 solid 1px;
+        border-radius: 35px;
+        font-family: "Gilroy", sans-serif;
+        font-size: 20px;
+    }
+}

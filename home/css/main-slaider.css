@@ -1,0 +1,221 @@
+.main-slaider {
+    display: flex;
+    justify-content: center;
+    
+}
+
+.container-slaider {
+    display: flex;
+    position: relative;
+    width: 1410px;
+    height: 652px;
+    overflow: hidden;
+}
+
+.container-slaider-active{
+    display: flex;
+    justify-content: center;
+    margin-left: 10px;
+    position: relative;
+    left: 0px;
+    transition: 2s;
+}
+
+.main-container-slaider {
+    width: 1400px;
+    height: 652px;
+    background-color: #303136;
+    border-radius: 30px;
+}
+
+.main-container-slaider-title {
+    display: flex;
+    width: 100%;
+}
+
+.main-container-slaider-title h2 {
+    color: white;
+    font-family: "Russo One", sans-serif;
+    font-size: 32px;
+    margin-left: 100px;
+    margin-top: 60px;
+    text-transform: uppercase;
+}
+
+.main-container-slaider-img {
+    display: flex;
+}
+
+.main-container-slaider-img img {
+    width: 585px;
+    height: 453px;
+    margin-left: 100px;
+}
+
+.main-container-slaider-span {
+    display: flex;
+    flex-direction: column;
+    margin-top: -10px;
+}
+
+.main-container-slaider-span div {
+    padding: 13px 129px 13px 70px;
+    margin-left: 60px;
+}
+
+.main-container-slaider-span div span {
+    font-family: "Roboto", sans-serif;
+    font-size: 16px;
+    color: white;
+    font-weight: 100;
+}
+
+hr {
+    width: 585px;
+    background-color: #9A9EA6;
+    opacity: 50%;
+}
+
+.left,
+.right {
+
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 50px;
+  height: 50px;
+  background-color: transparent;
+  border: none;
+  font-size: 24px;
+  color: white;
+}
+
+.left {
+  left: 10px;
+}
+
+.right {
+  right: 10px;
+}
+
+@media screen and (max-width: 1280px) {
+    .container-slaider, .main-container-slaider {   
+      width: 1210px;
+      margin-right: 18px;
+    }
+
+    .container-slaider-active {
+        display: flex;
+        width: 1200px;
+        justify-content: center;
+        position: relative;
+        left: 0px;
+        margin-left: 14px;
+        margin-right: 10px;
+        transition: 2s;
+    }
+}
+
+@media screen and (max-width: 768px) {
+
+    .main-slaider {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        flex-direction: column;
+        background-color: #303136;
+    }
+
+    .container-slaider, .main-container-slaider {
+        width: 768px;
+        display: flex;
+        margin-right: 0px;
+        flex-wrap: wrap;
+        flex-direction: column;
+        height: 550px;
+    }
+
+    .container-slaider-active {
+        display: flex;
+        width: 314px;
+        height: 428px;
+        justify-content: center;
+        position: static;
+        left: 0px;
+        margin-left: 26px;
+        margin-right: 0px;
+        transition: 0s;
+        flex-wrap: wrap;
+    }
+
+    .main-container-slaider-title {
+        height: 29px;
+        display: flex;
+        margin-top: 50px;
+        margin-left: 21px;
+    }
+
+    .main-container-slaider-title h2 {
+        color: white;
+        font-family: "Russo One", sans-serif;
+        font-size: 18px;
+        margin-left: 0px;
+        margin-top: 0px;
+        text-transform: uppercase;
+    }
+
+    .main-container-slaider-img {
+        height: 229px;
+        width: 314px;
+        display: flex;
+        flex-wrap: wrap;
+        margin-top: 25px;
+        margin-left: 21px;
+    }
+
+    .main-container-slaider-img img {
+        width: 324px;
+        height: 229px;
+        margin-left: 0px;
+    }
+
+    .main-container-slaider-span {
+        display: flex;
+        flex-direction: column;
+        margin-top: 0px;
+        flex-wrap: wrap;
+        width: 314px;
+        height: 187px;
+        margin-top: 10px;
+    }
+
+    .main-container-slaider-span div {
+        padding: 0px 0px 0px 0px;
+        margin-left: 0px;
+    }
+
+    .main-container-slaider-span div span {
+        font-family: "Roboto", sans-serif;
+        font-size: 16px;
+        color: white;
+        font-weight: 100;
+    }
+
+    div.example {
+        display: none;
+      }
+
+      hr.example {
+        display: none;
+      }
+
+      h2.example {
+        display: none;
+      }
+
+      .left, .right {
+        display: none;
+      }
+
+}
+

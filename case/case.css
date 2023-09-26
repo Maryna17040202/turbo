@@ -1,0 +1,123 @@
+body {
+    overflow-x: hidden;
+}
+
+
+.main-title {
+    font-family: "Russo One", sans-serif;
+    font-size: 24px;
+    text-transform: uppercase;
+    color: #355CA9;
+    margin-left: 200px;
+    margin-top: 70px;
+
+}
+
+ul.breadcrumb {
+    list-style: none;
+    margin-left: 165px;
+    margin-top: 10px;
+    
+}
+ul.breadcrumb li {
+    display: inline;
+    font-family: "Gilroy", sans-serif;
+    font-size: 13px;
+    color: rgb(154, 158, 166, .5);
+}
+ul.breadcrumb li+li:before {
+    color: #757575;
+    content: "/\00a0";
+}
+ul.breadcrumb li a {
+    color: #757575;
+    text-decoration: none;
+}
+ul.breadcrumb li a:hover {
+    color: #355CA9;
+    text-decoration: none;
+}
+
+.case-slaider {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    left: 0px;
+}
+
+.slaider {
+    display: flex;
+    margin-left: 20px;
+    margin-right: 20px;
+    position: relative;
+    transition: 2s;
+    left: 0px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.slaider img {
+    width: 1201px;
+    height: 456px;
+    border-radius: 16px;
+}
+
+.slaider span {
+    color: #757575;
+}
+
+
+.opacity {
+    display: flex;
+    position: relative;
+    margin-left: 20px;
+    margin-right: 20px;
+    transition: 2s;
+    left: 0px;
+    opacity: .5;
+}
+
+
+.opacity img {
+    width: 1201px;
+    height: 456px;
+    opacity: .5;
+}
+
+.container-cases-info {
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+.container-cases-info-div {
+    display: flex;
+    width: 1201px;
+    height: 126px;
+    flex-wrap: wrap;
+}
+
+.container-cases-info-div span {
+    font-family: "Gilroy", sans-serif;
+    font-size: 16px;
+    color: #303136;
+}
+
+.container-cases-connection {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.container-cases-connection-div {
+    width: 1201px;
+    height: 42px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.container-cases-connection-div span {
+    font-family: "Gilroy", sans-serif;
+    font-size: 16px;
+    color: #303136;
+}

@@ -1,0 +1,185 @@
+body {
+    overflow-x: hidden;
+}
+
+.container-header {
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-content: center;
+    flex-wrap: wrap;
+}
+
+.logo {
+    width: 115.31px;
+    height: 60px;
+    }
+
+.navigation {
+    height: 24px;
+}
+
+.navigation ul {
+    display: flex;
+}
+
+.navigation li {
+    list-style-type: none;
+    height: 24px;
+    font-family: "Gilroy", sans-serif;
+    font-size: 16px;
+    margin-right: 38px;
+}
+
+.navigation a {
+    text-decoration: none;
+    color: black;
+}
+
+.navigation a:hover {
+    color: #355CA9;
+}
+
+.contact {
+    height: 44px;
+    color: #355CA9;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.contact button {
+    width: 167px;
+    height: 44px;
+    background-color: white;
+    font-family: "Gilroy", sans-serif;
+    font-size: 16px;
+    border-radius: 21px;
+    border: #355CA9 1px solid;
+    color: #355CA9;
+    margin-left: 8px;
+}
+
+.hamb {
+    display: none;
+}
+
+.bar {
+    display: block;
+    width: 25px;
+    height: 3px;
+    margin: 5px auto;
+    transition: 0.3s;
+    background-color: #101010;
+    margin-top: 0px;
+}
+
+@font-face {
+    font-family: "Gilroy"; 
+    src: url("/font/Gilroy-Semibold.ttf" ) format("truetype");
+    font-style: normal; 
+    font-weight: normal; 
+} 
+
+@media screen and (max-width: 1280px) {
+    .container-header {
+        width: 100%;
+    }
+
+}
+
+@media screen and (max-width: 768px) {
+    .container-header {
+        width: 100%;
+        display: flex;
+    }
+
+
+    .navigation ul {
+        position: fixed;
+        flex-direction: column;
+        background-color: black;
+        color: white;
+        width: 100%;
+        height: 622px;
+        text-align: center;
+        transition: 0.3s;
+        left: -100%;
+        /* top: -1rem; */
+        margin-top: -15px;
+        margin-left: -45px;
+    }
+
+    .navigation li {
+        list-style-type: none;
+        height: 24px;
+        font-family: "Roboto", sans-serif;
+        font-size: 24px;
+        margin-right: 38px;
+        display: flex;
+        margin-top: 15px;
+    }
+
+    ul.active {
+        left: 0;
+        margin-top: -15px;
+        margin-left: 0px;
+        z-index: 99;
+    }
+
+    .navigation a {
+        color: aliceblue;
+        font-family: "Roboto", sans-serif;
+        font-size: 24px;
+        margin-top: 60px;
+    }
+
+    .logo {
+        width: 115.31px;
+        height: 60px;
+        margin-top: 0px;
+    }
+
+    .navigation {
+        height: 24px;
+        margin-top: 6px;
+    }
+
+    .contact {
+        height: 44px;
+        color: #355CA9;
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        margin-top: -58px;
+    }
+
+    .hamb {
+        display: block;
+        cursor: pointer;
+        margin-left: 605px;
+        margin-top: -5px;
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        z-index: 99;
+    }
+
+    
+
+    .hamb.active .bar:nth-child(2) {
+        opacity: 0;
+    }
+
+    .hamb.active .bar:nth-child(1) {
+        transform: translateY(8px) rotate(45deg);
+        background-color: white;
+        z-index: 999;
+    }
+
+    .hamb.active .bar:nth-child(3) {
+        transform: translateY(-8px) rotate(-45deg);
+        background-color: white;
+        z-index: 999;
+    }
+}

@@ -1,0 +1,140 @@
+.main-container {
+    background-color: #EEF1F8;
+    height: 878px;
+    display: flex;
+    justify-content: center;
+    padding-bottom: 100px;
+}
+
+.main-container-main-general {
+    display: flex;
+    width: 1400px;
+    position: relative;
+    overflow: hidden;
+    background: white;
+    margin-top: 50px;
+    border-radius: 50px;
+}
+
+.main-general {
+    display: flex;
+    justify-content: center;
+    margin-left: 10px;
+    position: relative;
+    left: -420px;
+    transition: 2s;
+    margin-right: 420px;
+    margin-left: 420px;
+}
+
+.main {
+    margin-top: 60px;
+    margin-left: 100px;
+    width: 884px;
+    height: 234px;
+}
+
+.main-title {
+    width: 884px;
+}
+
+.main-title h1 {
+    font-family: "Russo One", sans-serif;
+    font-weight: 800;
+    font-size: 40px;
+    word-spacing: 2px;
+}
+
+.main-title span {
+    color: #355CA9;
+}
+
+.main-subtitle {
+    width: 359px;
+    height: 66px;
+}
+
+.main-subtitle span {
+    font-family: "Gilroy", sans-serif;
+    font-size: 16px;
+    color: #303136;
+    font-weight: 500;
+    line-height: 25px;
+    word-spacing: 0.5px;
+}
+
+.main-btn button{
+    width: 237px;
+    height: 56px;
+    background: #355CA9;
+    background-color: #355CA9;
+    color: white;
+    border-radius: 50px;
+    font-family: "Gilroy", sans-serif;
+    font-size: 16px;
+    border: #355CA9;
+    margin-top: 20px;
+}
+
+.main-btn button:hover{
+    background: #303136;
+}
+
+.main-img img{
+    width: 1400px;
+    height: 450px;
+    margin-top: -45px;
+    margin-left: -100px;
+    border-radius: 35px;
+}
+
+.main-img-img img {
+    width: 740.06px;
+    height: 427px;
+}
+
+@media screen and (max-width: 1280px) {
+    .main-container-main-general {   
+      width: 1200px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+
+    .main {
+        margin-top: 30px;
+        margin-left: 10px;
+        
+    }
+    .main-container-main-general {   
+      width: 768px;
+      margin-left: 20px;
+      margin-right: 20px;
+      margin-bottom: 63px;
+    }
+
+    .main-container {
+        background-color: #EEF1F8;
+        height: 746px;
+        display: flex;
+        justify-content: center;
+        padding-bottom: 101px;
+    }
+
+    .main-title h1 {
+        font-family: "Russo One", sans-serif;
+        font-weight: 800;
+        font-size: 32px;
+        word-spacing: 2px;
+        width: 713px;
+        height: 68px;
+    }
+
+    .main-img img {
+        width: 768px;
+        height: 398px;
+        border-radius: 35px;
+        margin-top: -49px;
+        margin-left: -10px;
+    }
+}

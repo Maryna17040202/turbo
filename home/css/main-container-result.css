@@ -1,0 +1,114 @@
+.main-container-result {
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+ }
+ 
+ .main-container-result-title-img-subtitle {
+     width: 1200px;
+     height: 622px;
+ }
+ 
+ .main-result-title {
+     color: #355CA9;
+     font-family: "Russo One", sans-serif;
+     font-size: 23px;
+     text-transform: uppercase;
+     width: 656px;
+     line-height: 120%;
+     margin-left: 20px;
+ }
+ 
+ .main-result-container-img-subtitle {
+     display: flex;
+     width: 1200px;
+     flex-wrap: wrap;
+ }
+ 
+ .main-result-img-subtitle {
+     width: 380px;
+     height: 261px;
+     border: #9a9ea6 solid 1px;
+     border-radius: 16px;
+     margin-left: 15px;
+     margin-top: 15px;
+     position: relative;
+     transition: 2s;
+ }
+ 
+ .main-result-img-subtitle:hover {
+     background-color: #303136;
+ }
+ 
+ .main-result-img-subtitle:hover img {
+     filter: brightness(4.5);  
+ }
+ 
+ .main-result-img-subtitle:hover .main-result-subtitle {
+     color: white;
+ }
+ 
+ .main-result-img-subtitle img {
+     margin-left: 30px;
+     margin-top: 30px;
+ }
+ 
+ 
+ .main-result-subtitle {
+     margin-left: 30px;
+     margin-top: 15px;
+     color: #303136;
+     font-family: "Gilroy", sans-serif;
+     font-size: 22px;
+ }
+ 
+ .text {
+     margin-top: 10px;
+     font-family: "Roboto", sans-serif;
+     font-size: 16px;
+     font-weight: 140;
+ }
+
+ @media screen and (max-width: 768px) {
+
+    .main-container-result {
+        display: flex;
+        justify-content: center;
+        margin-top: 60px;
+    }
+
+    .main-container-result-title-img-subtitle {
+        width: 728px;
+        height: 879px;
+    }
+
+    .main-result-title {
+        color: #355CA9;
+        font-family: "Russo One", sans-serif;
+        font-size: 24px;
+        text-transform: uppercase;
+        width: 681px;
+        line-height: 120%;
+        margin-left: 20px;
+    }
+
+    .main-result-container-img-subtitle {
+        display: flex;
+        width: 728px;
+        flex-wrap: wrap;
+    }
+
+    .main-result-img-subtitle {
+        width: 354px;
+        height: 261px;
+        border: #9a9ea6 solid 1px;
+        border-radius: 16px;
+        margin-left: 7px;
+        margin-top: 0px;
+        margin-bottom: 7px;
+        position: relative;
+        transition: 2s;
+    }
+}
+
+ 

@@ -1,0 +1,172 @@
+
+body {
+    overflow-x: hidden;
+}
+.main-title {
+    font-family: "Russo One", sans-serif;
+    font-size: 24px;
+    text-transform: uppercase;
+    color: #355CA9;
+    margin-left: 200px;
+    margin-top: 70px;
+
+}
+
+ul.breadcrumb {
+    list-style: none;
+    margin-left: 165px;
+    margin-top: 10px;
+    
+}
+ul.breadcrumb li {
+    display: inline;
+    font-family: "Gilroy", sans-serif;
+    font-size: 13px;
+    color: rgb(154, 158, 166, .5);
+}
+ul.breadcrumb li+li:before {
+    color: #757575;
+    content: "/\00a0";
+}
+ul.breadcrumb li a {
+    color: #757575;
+    text-decoration: none;
+}
+ul.breadcrumb li a:hover {
+    color: #355CA9;
+    text-decoration: none;
+}
+
+.main-category {
+    display: flex;
+    justify-content: center;
+}
+
+.main-container-category {
+    display: flex;
+    width: 790px;
+    height: 688px;
+    flex-wrap: wrap;
+    flex-direction: column;
+    margin-right: 40px;
+    margin-left: 100px;
+}
+
+.duct-round, .duct-rectangular, .conditioner, .additional-elements {
+    width: 380px;
+    height: 331px;
+    border-radius: 16px;
+    border: rgb(154, 158, 166, 0.5) solid 1px;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: space-around;
+    justify-content: center;
+    margin-right: 30px;
+    margin-bottom: 30px;
+}
+
+.duct-rectangular, .additional-elements {
+    margin-right: 0px;
+    margin-bottom: 0px;
+    height: 307px;
+}
+
+.main-category-h3-a {
+    display: flex;
+    width: 332px;
+    height: 72px;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-content: center;
+}
+
+.main-category-h3-a h3 {
+    font-family: "Gilroy", sans-serif;
+    font-size: 20px;
+}
+
+.main-category-h3-a div {
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+}
+
+.main-container-info {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 380px;
+    height: 668px;
+}
+
+.main-container-info-category {
+    width: 380px;
+    height: 256px;
+    background: #EEF1F8;
+    border-radius: 16px;
+}
+
+.main-container-info-category ul {
+    width: 330px;
+    height: 192px;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: space-around;
+    font-family: "Gilroy", sans-serif;
+    font-size: 20px;
+    margin-left: 10px;
+}
+
+.main-container-info-category ul li a {
+    text-decoration: none;
+    color: #303136;
+}
+
+.main-container-info-company {
+    width: 380px;
+    height: 400px;
+    background: #EEF1F8;
+    border-radius: 16px;
+    margin-top: 15px;
+}
+
+.main-container-info-company h4 {
+    font-family: "Gilroy", sans-serif;
+    font-size: 20px;
+    text-align: center;   
+    margin-top: 34px;
+}
+
+.main-container-info-company ul {
+    list-style-type: none;
+    font-family: "Gilroy", sans-serif;
+    font-size: 14px;
+}
+
+.main-container-info-company ul li {
+    width: 330px;
+    height: 40px;
+    margin-top: 3px;
+}
+
+
+@font-face {
+    font-family: "Gilroy"; 
+    src: url("/font/Gilroy-Semibold.ttf" ) format("truetype");
+    font-style: normal; 
+    font-weight: normal; 
+} 
+
+@font-face {
+    font-family: "Russo One"; 
+    src: url("/font/Russo_One.ttf" ) format("truetype");
+    font-style: normal; 
+    font-weight: normal; 
+} 
+
+@font-face {
+    font-family: "Roboto"; 
+    src: url("/font/Roboto-Thin.ttf" ) format("truetype");
+    font-style: normal; 
+    font-weight: normal; 
+}
